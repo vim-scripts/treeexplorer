@@ -1,0 +1,21 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=183
+
+IMPORTANT: See UPDATES below - this script is now an orphan
+
+Uses perl and the unix tree command (available on linux, or find sources on freshmeat.net) to create a tree based explorer for your directory structure.   Features:
+
+- directories are foldable
+- different filetypes are highlighed
+- open a file in a new window
+- mappings for naviagation,
+- lazy loading of directory structure
+
+Caveats:
+Probably doesn't work right for non-unix systems, I'm working on this, but help is welcome
+
+UPDATES: 
+- I have reimplemented this script using only vim.  The new implementation can be found at http://vim.sourceforge.net/scripts/script.php?script_id=184 - vimtreeexplorer.vim.  That approach is faster as well as requiring no external programs.  I have now abandoned the original implementation because the new implementation can do recursive expansion if you want it to.
+
+
+
+Scott
